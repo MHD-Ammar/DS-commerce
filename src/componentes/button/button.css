@@ -1,0 +1,15 @@
+.customBtn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.5s;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.customBtn:hover {
+    background-color: black;
+    color: white;
+}
