@@ -1,3 +1,9 @@
+.header {
+    position: relative;
+    height: 900px;
+
+}
+
 .header-bg {
     background-image: url('../../assets/BackgroundHeader.png');
     background-repeat: no-repeat;
@@ -15,7 +21,7 @@
     align-items: center;
     flex-direction: column;
     padding-top: 10%;
-
+    box-sizing: border-box;
 }
 
 .header-bg2 h3 {
@@ -33,7 +39,10 @@
 }
 
 .img-header-container {
+    position: absolute;
     display: flex;
+    bottom: 0;
+    box-sizing: border-box;
 }
 
 .girlImg {

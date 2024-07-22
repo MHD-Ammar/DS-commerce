@@ -7,13 +7,12 @@ function App() {
   return (
     <>
 
-    <Router>
-      <Navbar/>
-      <Routes>
-        <Route element={<Header/>} path='/'/>
-         
-      </Routes>
-    </Router>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route element={<Header />} path='/' />
+        </Routes>
+      </Router>
 
     </>
   )
