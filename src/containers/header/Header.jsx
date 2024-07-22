@@ -1,4 +1,3 @@
-import React from 'react'
 import './header.css'
 import girlImg from '../../assets/girl.jpg';
 import boylImg from '../../assets/boy.jpg';
