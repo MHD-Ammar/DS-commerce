@@ -1,5 +1,9 @@
-import './product.css'
+import './product.css';
+
 const Product = ({data}) => {
+    console.log(JSON.stringify(data)
+)
+
     return (
         <>
         {
@@ -18,5 +22,6 @@ const Product = ({data}) => {
         </>
     )
 }
+
 
 export default Product

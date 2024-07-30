@@ -1,5 +1,6 @@
 .items-container{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    place-content: center;
+    row-gap: 20px;
 }

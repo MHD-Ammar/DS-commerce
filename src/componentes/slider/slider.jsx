@@ -1,6 +1,5 @@
 import Slider from "react-slick";
 import "./slider.css"
-import Card from "../card/card";
 export default function SlideShow({children}) {
   var settings = {
     dots: true,
@@ -12,6 +11,5 @@ export default function SlideShow({children}) {
   return (
     <Slider className="slider" {...settings}>
         {children}
-        <Card/>
     </Slider>
 )}

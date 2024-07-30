@@ -13,13 +13,13 @@ function App() {
       <ProductContextProvider>
 
       <Router>
-
         <Navbar />
         <Routes>
           <Route element={<Header />} path='/' />
-          {/* <Route element={<Card />} path='/card' /> */}
-          <Route element={<Boys />} path='/boys' />
-          <Route element={<Girls />} path='/girls' />
+          <Route path='/products' >
+          <Route element={<Boys />} path='/products/boys' />
+          <Route element={<Girls />} path='/products/girls' />
+          </Route>
         </Routes>
       </Router>
       </ProductContextProvider>
