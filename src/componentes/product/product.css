@@ -1,0 +1,46 @@
+.card{
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    padding: 20px;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    background-color: rgb(246, 248, 250);
+    text-align: center;
+    border-radius: 15%;
+    box-sizing: border-box;
+    
+}
+.card:hover{
+    box-shadow: black 4px 1px 1px;
+    transform: scale(1.01);
+}
+.title{
+    font-size:large;
+    color: rgb(107, 91, 105);
+}
+.card-img{
+    width: 150px;
+    min-width: 150px;
+    min-height: 200px;
+}
+.description{
+    /* width: 70%; */
+    text-wrap: wrap;
+}
+.price{
+    color: rgb(119, 119, 119);
+}
+.add-to-cart{
+    padding: 10px;
+    color: rgb(96, 96, 96);
+    background-color: rgb(244, 245, 245);
+    
+}
+.add-to-cart:hover{
+    background-color: rgb(253, 254, 254);
+    cursor: pointer;
+    /* box-shadow: black 4px 1px 1px; */
+    border-bottom: 4px solid black;
+}
