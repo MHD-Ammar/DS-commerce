@@ -1,99 +1,98 @@
 [
-  
   {
     "category": "boys",
     "name": "Ensemble gilet ",
     "current_price": 18.55,
     "raw_price": 36.98,
-    "url": "/src/assets/Boys/WhatsApp Image 2024-07-30 at 11.05.38.jpeg"
-
-  },
-  {
-    "category": "boys",
-    "name": "Ensemble gilet ",
-    "current_price": 18.55,
-    "raw_price": 36.98,
-    "url": "/src/assets/Boys/WhatsApp Image 2024-07-30 at 11.05.54(1).jpeg"
-    
+    "url": "/src/assets/Boys/WhatsApp Image 2024-07-30 at 11.05.38.jpeg",
+    "numOfSales": 25
   },
   {
     "category": "boys",
     "name": "Ensemble gilet ",
     "current_price": 18.55,
     "raw_price": 36.98,
-    "url": "/src/assets/Boys/WhatsApp Image 2024-07-30 at 11.05.54(2).jpeg"
-    
+    "url": "/src/assets/Boys/WhatsApp Image 2024-07-30 at 11.05.54(1).jpeg",
+    "numOfSales": 29
   },
   {
     "category": "boys",
     "name": "Ensemble gilet ",
     "current_price": 18.55,
     "raw_price": 36.98,
-    "url": "/src/assets/Boys/WhatsApp Image 2024-07-30 at 11.05.54.jpeg"
-    
+    "url": "/src/assets/Boys/WhatsApp Image 2024-07-30 at 11.05.54(2).jpeg",
+    "numOfSales": 10
   },
   {
     "category": "boys",
     "name": "Ensemble gilet ",
     "current_price": 18.55,
     "raw_price": 36.98,
-    "url": "/src/assets/Boys/WhatsApp Image 2024-07-30 at 11.05.55.jpeg"
-    
+    "url": "/src/assets/Boys/WhatsApp Image 2024-07-30 at 11.05.54.jpeg",
+    "numOfSales": 30
+  },
+  {
+    "category": "boys",
+    "name": "Ensemble gilet ",
+    "current_price": 18.55,
+    "raw_price": 36.98,
+    "url": "/src/assets/Boys/WhatsApp Image 2024-07-30 at 11.05.55.jpeg",
+    "numOfSales": 22
   },
   {
     "category": "girls",
     "name": "Ensemble gilet ",
     "current_price": 18.55,
     "raw_price": 36.98,
-    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.45.28(2).jpeg"
-    
+    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.45.28(2).jpeg",
+    "numOfSales": 25
   },
   {
     "category": "girls",
     "name": "Ensemble gilet ",
     "current_price": 18.55,
     "raw_price": 36.98,
-    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.45.28(1).jpeg"
-    
+    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.45.28(1).jpeg",
+    "numOfSales": 5
   },
   {
     "category": "girls",
     "name": "Ensemble gilet ",
     "current_price": 18.55,
     "raw_price": 36.98,
-    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.45.28(1).jpeg"
-    
+    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.45.28(1).jpeg",
+    "numOfSales": 3
   },
   {
     "category": "girls",
     "name": "Ensemble gilet ",
     "current_price": 18.55,
     "raw_price": 36.98,
-    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.45.27.jpeg"
-    
+    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.45.27.jpeg",
+    "numOfSales": 30
   },
   {
     "category": "girls",
     "name": "Ensemble gilet ",
     "current_price": 18.55,
     "raw_price": 36.98,
-    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.45.27(1).jpeg"
-    
+    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.45.27(1).jpeg",
+    "numOfSales": 55
   },
   {
     "category": "girls",
     "name": "Ensemble gilet ",
     "current_price": 18.55,
     "raw_price": 36.98,
-    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.45.24.jpeg"
-    
+    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.45.24.jpeg",
+    "numOfSales": 30
   },
   {
     "category": "girls",
     "name": "Ensemble gilet ",
     "current_price": 18.55,
     "raw_price": 36.98,
-    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.40.05.jpeg"
-    
+    "url": "/src/assets/Girls/WhatsApp Image 2024-07-30 at 10.40.05.jpeg",
+    "numOfSales": 3
   }
 ]

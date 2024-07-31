@@ -1,7 +1,6 @@
 .header {
-    position: relative;
-    height: 900px;
-
+    box-sizing: border-box;
+    overflow: unset;
 }
 
 .header-bg {
@@ -9,6 +8,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    min-height: 500px;
     height: 800px;
     padding: 0;
 
@@ -39,9 +39,7 @@
 }
 
 .img-header-container {
-    position: absolute;
     display: flex;
-    bottom: 0;
     box-sizing: border-box;
 }
 

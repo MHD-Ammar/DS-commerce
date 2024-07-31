@@ -1,27 +1,17 @@
-import './product.css';
+import "./product.css";
+import Card from "../card/Card";
+const Product = ({ data }) => {
+  return (
+    <>
+      {data?.map((item, index) => {
+        return (
+          <div key={index} className="">
+            <Card title={item.name} img={item.url} price={item.currentPrice} />
+          </div>
+        );
+      })}
+    </>
+  );
+};
 
-const Product = ({data}) => {
-    console.log(JSON.stringify(data)
-)
-
-    return (
-        <>
-        {
-            data?.map((item,index)=>{
-                return (
-                    <div key={index} className="card">
-                        <h1 className="title">{item.name}</h1>
-                        <p className="price">{item.current_price}</p>
-                        <img src={item.url} className="card-img" alt="product-img" />
-
-                        <button className="add-to-cart">Add to cart</button>
-                    </div>
-                )
-            })
-        }
-        </>
-    )
-}
-
-
-export default Product
+export default Product;
