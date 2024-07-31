@@ -1,2 +1,5 @@
 export { default as Header } from './header/Header'
 export { default as Footer } from './footer/Footer'
+export { default as Girls } from './Girls/Girls'
+export { default as Boys } from './Boys/Boys'
+export { default as Home } from './Home'

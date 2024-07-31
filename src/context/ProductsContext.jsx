@@ -8,19 +8,10 @@ export default function ProductContextProvider({ children }) {
   const [girls, setGirls] = useState([]);
 
   useEffect(() => {
-    const boysItems = [];
-    const girlsItems = [];
-
-    clothes.forEach((item) => {
-      if (item.category === "boys") {
-        boysItems.push(item);
-      } else if (item.category === "girls") {
-        girlsItems.push(item);
-      }
+    clothes.forEach((cloth) => {
+      if (cloth.category === "boys") setBoys((prev) => [...prev, cloth]);
+      else setGirls((prev) => [...prev, cloth]);
     });
-
-    setBoys(boysItems);
-    setGirls(girlsItems);
   }, []);
 
   return (
